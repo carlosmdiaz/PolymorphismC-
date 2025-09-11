@@ -20,10 +20,10 @@
 //     new TomatoSauce()
 // };
 
-foreach(var ingredient in ingredients)
-{
-    System.Console.WriteLine(ingredient.Name);
-}
+// foreach(var ingredient in ingredients)
+// {
+//     System.Console.WriteLine(ingredient.Name);
+// }
 
 Console.ReadKey();
 
@@ -41,7 +41,7 @@ public class Pizza
 
 }
 
-public class Ingredient
+public abstract class Ingredient
 {
     public Ingredient(int priceIfExtraTopping)
     {
