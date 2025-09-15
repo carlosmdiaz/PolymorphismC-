@@ -13,19 +13,30 @@
 // Ingredient ingredient = new Cheddar();
 // System.Console.WriteLine(ingredient.Name);
 
-// var ingredients = new List<Ingredient>
-// {
-//     new Cheddar(),
-//     new Mozzarella(),
-//     new TomatoSauce()
-// };
+var bakeableDishes = new List<object> {
+    new Pizza(),
+    new Panettone()
+};
 
-// foreach(var ingredient in ingredients)
-// {
-//     System.Console.WriteLine(ingredient.Name);
-// }
+foreach(var bakeableDish in bakeableDishes)
+{
+    System.Console.WriteLine(bakeableDish.GetInstructions());
+}
+
 
 Console.ReadKey();
+
+public abstract class Dessert { }
+
+public abstract class Beakable
+{
+    public abstract string GetInstructions();
+}
+
+public class Panettone : Dessert
+{
+
+}
 
 public class Pizza
 {
