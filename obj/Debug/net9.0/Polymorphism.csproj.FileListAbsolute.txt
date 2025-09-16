@@ -1,0 +1,15 @@
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/Polymorphism.AssemblyInfoInputs.cache
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/Polymorphism.AssemblyInfo.cs
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/Polymorphism.csproj.CoreCompileInputs.cache
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/Polymorphism.sourcelink.json
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/bin/Debug/net9.0/Polymorphism
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/bin/Debug/net9.0/Polymorphism.deps.json
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/bin/Debug/net9.0/Polymorphism.runtimeconfig.json
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/bin/Debug/net9.0/Polymorphism.dll
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/bin/Debug/net9.0/Polymorphism.pdb
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/Polymorphism.dll
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/refint/Polymorphism.dll
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/Polymorphism.pdb
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/Polymorphism.genruntimeconfig.cache
+/Users/carlosdiaz/Documents/C# Projects MasterClass/Polymorphism/obj/Debug/net9.0/ref/Polymorphism.dll
