@@ -13,7 +13,7 @@
 // Ingredient ingredient = new Cheddar();
 // System.Console.WriteLine(ingredient.Name);
 
-var bakeableDishes = new List<object> {
+var bakeableDishes = new List<IBakeable> {
     new Pizza(),
     new Panettone()
 };
@@ -28,17 +28,17 @@ Console.ReadKey();
 
 public abstract class Dessert { }
 
-public abstract class Beakable
+public interface IBakeable
 {
     public abstract string GetInstructions();
 }
 
-public class Panettone : Dessert
+public class Panettone : Dessert, IBakeable
 {
-
+    public string GetInstructions() => "Bake at 180 degrees Celsius for 35 minutes.";
 }
 
-public class Pizza
+public class Pizza : IBakeable
 {
     private List<Ingredient> _ingredients = new List<Ingredient>();
 
@@ -50,6 +50,8 @@ public class Pizza
     public string Describe() =>
     $"This is a pizza with {string.Join(", ", _ingredients)}";
 
+    public string GetInstructions() => "Bake at 250 degrees Celsius for 10 minutes, " +
+        "ideally on stone";
 }
 
 public abstract class Ingredient
